@@ -48,7 +48,7 @@ export default function LeadForm() {
       }
 
       // Format message for WhatsApp
-      const whatsappMessage = `Hi Nexovatu!%0A%0A*New Lead Inquiry*%0A%0AName: ${encodeURIComponent(formData.name)}%0AEmail: ${encodeURIComponent(formData.email)}%0APhone: ${encodeURIComponent(formData.phone)}%0ALocation Interest: ${encodeURIComponent(formData.location)}%0AMessage: ${encodeURIComponent(formData.message)}`
+      const whatsappMessage = `Hi Nexovastu!%0A%0A*New Lead Inquiry*%0A%0AName: ${encodeURIComponent(formData.name)}%0AEmail: ${encodeURIComponent(formData.email)}%0APhone: ${encodeURIComponent(formData.phone)}%0ALocation Interest: ${encodeURIComponent(formData.location)}%0AMessage: ${encodeURIComponent(formData.message)}`
 
       // Open WhatsApp with pre-filled message
       const whatsappUrl = `https://wa.me/918830460132?text=${whatsappMessage}`
@@ -95,10 +95,10 @@ export default function LeadForm() {
               </svg>
             </div>
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-4 bg-gradient-to-r from-white via-white/95 to-white/80 bg-clip-text text-transparent">
-              Get Notified First
+              Get Expert Consultation
             </h3>
             <p className="text-gray-300 text-lg max-w-xl mx-auto">
-              Be the first to know when we launch. Fill in your details and we'll contact you!
+              Share your requirements and our team will contact you shortly.
             </p>
           </div>
 
@@ -284,3 +284,5 @@ export default function LeadForm() {
     </div>
   )
 }
+
+

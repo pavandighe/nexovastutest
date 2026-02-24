@@ -1,8 +1,6 @@
 import { LOCATION_SITES } from '@/lib/locationSites'
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear()
-
   return (
     <footer id="contact" className="bg-[#1e293b] text-white relative overflow-hidden">
       {/* Background Pattern - Plus Signs */}
@@ -21,12 +19,12 @@ export default function Footer() {
                 <span className="text-white font-bold text-2xl">NV</span>
               </div>
               <div>
-                <div className="font-bold text-xl text-white">Nexovatu</div>
+                <div className="font-bold text-xl text-white">Nexovastu</div>
                 <p className="text-sm text-gray-400 font-medium">BY PSD</p>
               </div>
             </div>
             <p className="text-gray-300 text-sm mb-6 leading-relaxed">
-              Premium real estate platform coming soon. Your trusted partner for property solutions across Pune, Maharashtra.
+              Pune&apos;s trusted partner for premium real estate across Baner, Punawale, Ravet, Tathawade and Wakad.
             </p>
             <div className="flex gap-3">
               <a
@@ -105,7 +103,7 @@ export default function Footer() {
             <h3 className="font-bold text-xl mb-6 text-white">Quick Links</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#coming-soon" className="text-gray-300 hover:text-white transition-colors">
+                <a href="#home" className="text-gray-300 hover:text-white transition-colors">
                   Home
                 </a>
               </li>
@@ -116,7 +114,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/918830460132?text=Hi%20Nexovatu%2C%20I%20am%20interested%20in%20your%20services."
+                  href="https://wa.me/918830460132?text=Hi%20Nexovastu%2C%20I%20am%20interested%20in%20your%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white transition-colors"
@@ -126,13 +124,19 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@nexovatu.com"
+                  href="mailto:info@nexovastu.com"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Email Us
                 </a>
               </li>
             </ul>
+            <a
+              href="#lead-form"
+              className="mt-6 inline-flex items-center justify-center rounded-lg bg-[#3b82f6] hover:bg-[#2563eb] text-white font-semibold py-3 px-6 transition-all shadow-lg"
+            >
+              Enquire Now
+            </a>
           </div>
 
           {/* Contact Info */}
@@ -151,13 +155,13 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-[#3b82f6] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:info@nexovatu.com" className="text-white hover:text-gray-300 transition-colors break-all">
-                  info@nexovatu.com
+                <a href="mailto:info@nexovastu.com" className="text-white hover:text-gray-300 transition-colors break-all">
+                  info@nexovastu.com
                 </a>
               </li>
               <li className="pt-4">
                 <a
-                  href="https://wa.me/918830460132?text=Hi%20Nexovatu%2C%20I%20am%20interested%20in%20your%20premium%20real%20estate%20properties."
+                  href="https://wa.me/918830460132?text=Hi%20Nexovastu%2C%20I%20am%20interested%20in%20your%20premium%20real%20estate%20properties."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold py-3 px-6 rounded-lg transition-all shadow-lg"
@@ -172,19 +176,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-600/50 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <div>
-              <p>&copy; {currentYear} Nexovatu. All rights reserved.</p>
-              <p className="mt-1">Premium Real Estate Platform | Coming Soon</p>
-            </div>
-            <div className="flex gap-6 text-xs">
-              <a href="#coming-soon" className="hover:text-white transition-colors">Privacy Policy</a>
-              <a href="#contact" className="hover:text-white transition-colors">Terms of Service</a>
-            </div>
-          </div>
+        <div className="border-t border-gray-600/50 mt-12 pt-8 text-center text-sm text-gray-300">
+          <p>&copy; 2026 Nexovastu by PSD | Real Estate Consultant | Pune, Maharashtra</p>
         </div>
       </div>
     </footer>
   )
 }
+
+

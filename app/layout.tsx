@@ -2,10 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Nexovatu - Coming Soon | Premium Real Estate Platform | Pune Properties',
-  description: 'Nexovatu is coming soon. Your trusted partner for premium real estate solutions across Pune. Explore our location-wise sites for Baner, Punawale, Ravet, Tathawade, and Wakad. Get notified first and be part of the premium property revolution.',
+  title: "Nexovastu | Premium Real Estate in Baner, Punawale, Ravet, Tathawade & Wakad – Pune",
+  description: "Nexovastu by PSD is Pune's trusted real estate partner. Find premium properties in Baner, Punawale, Ravet, Tathawade and Wakad. Browse listings, get expert guidance and find your dream home today.",
   keywords: [
-    'nexovatu',
     'nexovastu',
     'real estate pune',
     'pune properties',
@@ -23,33 +22,32 @@ export const metadata: Metadata = {
     'commercial properties pune',
     'PSD real estate',
     'buy property pune',
-    'real estate coming soon',
     'property solutions pune',
     'maharashtra real estate',
   ].join(', '),
-  authors: [{ name: 'Nexovatu by PSD' }],
-  creator: 'Nexovatu',
-  publisher: 'Nexovatu',
+  authors: [{ name: 'Nexovastu by PSD' }],
+  creator: 'Nexovastu',
+  publisher: 'Nexovastu',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://nexovatu.com'),
+  metadataBase: new URL('https://nexovastu.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Nexovatu - Coming Soon | Premium Real Estate Platform',
-    description: 'Your trusted partner for premium real estate solutions across Pune. Explore properties in Baner, Punawale, Ravet, Tathawade, and Wakad.',
-    url: 'https://nexovatu.com',
-    siteName: 'Nexovatu',
+    title: 'Nexovastu | Premium Real Estate in Pune',
+    description: "Find premium properties in Baner, Punawale, Ravet, Tathawade and Wakad. Pune's trusted real estate partner.",
+    url: 'https://nexovastu.com',
+    siteName: 'Nexovastu',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Nexovatu - Premium Real Estate Platform',
+        alt: 'Nexovastu - Premium Real Estate Platform',
       },
     ],
     locale: 'en_US',
@@ -57,8 +55,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nexovatu - Coming Soon | Premium Real Estate Platform',
-    description: 'Your trusted partner for premium real estate solutions across Pune.',
+    title: 'Nexovastu | Premium Real Estate in Pune',
+    description: "Find premium properties in Baner, Punawale, Ravet, Tathawade and Wakad. Pune's trusted real estate partner.",
     images: ['/og-image.jpg'],
     creator: '@nexovastu',
   },
@@ -89,6 +87,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Nexovastu | Premium Real Estate in Pune" />
+        <meta property="og:description" content="Find premium properties in Baner, Punawale, Ravet, Tathawade and Wakad. Pune's trusted real estate partner." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://nexovastu.com" />
         {/* Structured Data - Organization */}
         <script
           type="application/ld+json"
@@ -96,14 +99,14 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'RealEstateAgent',
-              name: 'Nexovatu',
+              name: 'Nexovastu',
               alternateName: 'Nexovastu',
               description: 'Premium real estate platform providing property solutions across Pune',
-              url: 'https://nexovatu.com',
-              logo: 'https://nexovatu.com/logo.png',
-              image: 'https://nexovatu.com/og-image.jpg',
+              url: 'https://nexovastu.com',
+              logo: 'https://nexovastu.com/logo.png',
+              image: 'https://nexovastu.com/og-image.jpg',
               telephone: '+91-8830460132',
-              email: 'info@nexovatu.com',
+              email: 'info@nexovastu.com',
               address: {
                 '@type': 'PostalAddress',
                 addressLocality: 'Pune',
@@ -148,13 +151,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: 'Nexovatu',
-              url: 'https://nexovatu.com',
+              name: 'Nexovastu',
+              url: 'https://nexovastu.com',
               potentialAction: {
                 '@type': 'SearchAction',
                 target: {
                   '@type': 'EntryPoint',
-                  urlTemplate: 'https://nexovatu.com/search?q={search_term_string}',
+                  urlTemplate: 'https://nexovastu.com/search?q={search_term_string}',
                 },
                 'query-input': 'required name=search_term_string',
               },
@@ -168,10 +171,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
-              name: 'Nexovatu',
-              image: 'https://nexovatu.com/og-image.jpg',
-              '@id': 'https://nexovatu.com',
-              url: 'https://nexovatu.com',
+              name: 'Nexovastu',
+              image: 'https://nexovastu.com/og-image.jpg',
+              '@id': 'https://nexovastu.com',
+              url: 'https://nexovastu.com',
               telephone: '+91-8830460132',
               priceRange: '$$',
               address: {
@@ -207,3 +210,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+

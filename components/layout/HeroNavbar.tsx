@@ -10,14 +10,14 @@ type HeroNavbarLink = {
 }
 
 const leftLinks: HeroNavbarLink[] = [
-  { href: '#coming-soon', label: 'HOME' },
+  { href: '#home', label: 'HOME' },
   { href: '#locations', label: 'LOCATIONS' },
   { href: '#lead-form', label: 'PROPERTIES' },
 ]
 
 const rightLinks: HeroNavbarLink[] = [
   { href: '#lead-form', label: 'CONTACT' },
-  { href: 'https://wa.me/918830460132?text=Hi%20Nexovatu%2C%20I%20am%20interested%20in%20your%20services.', label: 'WHATSAPP' },
+  { href: 'https://wa.me/918830460132?text=Hi%20Nexovastu%2C%20I%20am%20interested%20in%20your%20services.', label: 'WHATSAPP' },
 ]
 
 const allLinks = [...leftLinks, ...rightLinks]
@@ -44,12 +44,12 @@ export default function HeroNavbar() {
 
           {/* Center brand */}
           <Link
-            href="#coming-soon"
+            href="#home"
             className="flex flex-col items-center gap-1 text-white ui-transition hover:text-white/95"
-            aria-label="Nexovatu Home"
+            aria-label="Nexovastu Home"
           >
             <span className="text-xl sm:text-2xl tracking-[0.35em] font-light">
-              NEXOVATU
+              Nexovastu
             </span>
             <span className="text-[10px] tracking-[0.45em] uppercase text-white/80">
               BY PSD
@@ -146,3 +146,5 @@ export default function HeroNavbar() {
     </div>
   )
 }
+
+

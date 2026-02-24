@@ -12,7 +12,7 @@ export default function WhatsAppButton() {
   }, [])
 
   const handleClick = () => {
-    const message = encodeURIComponent('Hi Nexovatu! I am interested in your premium real estate properties.')
+    const message = encodeURIComponent('Hi Nexovastu! I am interested in your premium real estate properties.')
     const whatsappUrl = `https://wa.me/918830460132?text=${message}`
     window.open(whatsappUrl, '_blank')
   }
@@ -49,3 +49,5 @@ export default function WhatsAppButton() {
     </div>
   )
 }
+
+

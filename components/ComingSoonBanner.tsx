@@ -6,7 +6,7 @@ import { LOCATION_SITES } from '@/lib/locationSites'
 export default function ComingSoonBanner() {
   return (
     <section
-      id="coming-soon"
+      id="home"
       className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-dark via-primary via-blue-600 to-primary-light overflow-hidden"
     >
       {/* Animated Background Pattern */}
@@ -46,27 +46,27 @@ export default function ComingSoonBanner() {
                 </div>
               </div>
               <h1 className="text-6xl sm:text-7xl lg:text-8xl font-extrabold text-white mb-3 bg-gradient-to-r from-white via-white/95 to-white/90 bg-clip-text text-transparent drop-shadow-2xl">
-                Nexovatu
+                Nexovastu
               </h1>
               <p className="text-white/95 text-xl sm:text-2xl font-semibold tracking-wide">BY PSD</p>
             </div>
           </div>
         </div>
 
-        {/* Coming Soon Text */}
+        {/* Hero Text */}
         <div className="mb-16 animate-fade-in-up">
           <h2 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white mb-6 drop-shadow-2xl relative">
             <span className="bg-gradient-to-r from-white via-white/95 to-white/80 bg-clip-text text-transparent">
-              Coming Soon
+              Premium Real Estate Services
             </span>
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
           </h2>
           <p className="text-2xl sm:text-3xl text-white/98 mb-8 max-w-3xl mx-auto leading-relaxed font-medium">
-            We're building something amazing for you. Your trusted partner for premium real estate solutions.
+            Discover verified properties across Pune with expert guidance from Nexovastu.
           </p>
           <div className="inline-block px-8 py-4 bg-white/25 backdrop-blur-xl rounded-full border-2 border-white/40 shadow-2xl transform hover:scale-110 transition-all duration-300 hover:shadow-white/30 group">
             <p className="text-white font-bold text-lg flex items-center gap-2">
-              <span>Stay tuned for the launch!</span>
+              <span>Connect with our team today!</span>
               <span className="text-2xl transform group-hover:translate-x-1 transition-transform duration-300">🚀</span>
             </p>
           </div>
@@ -133,3 +133,5 @@ export default function ComingSoonBanner() {
     </section>
   )
 }
+
+

@@ -16,13 +16,16 @@ export default function ComingSoonContent() {
             </div>
             <div className="text-left">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-                Nexovatu
+                Nexovastu
               </h2>
               <p className="text-lg text-gray-600 font-medium">BY PSD</p>
             </div>
           </div>
-          <p className="text-xl text-gray-700 max-w-2xl mx-auto leading-relaxed">
-            Premium real estate platform coming soon. Your trusted partner for property solutions across Pune, Maharashtra.
+          <p className="text-2xl text-gray-900 max-w-3xl mx-auto leading-relaxed font-medium">
+            Pune&apos;s Trusted Partner for Premium Real Estate
+          </p>
+          <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            Find your dream property in Pune&apos;s most sought-after locations — Baner, Punawale, Ravet, Tathawade and Wakad
           </p>
         </div>
 
@@ -30,10 +33,10 @@ export default function ComingSoonContent() {
         <div id="locations" className="max-w-6xl mx-auto mb-20 scroll-mt-20">
           <div className="text-center mb-12">
             <h3 className="text-4xl sm:text-5xl font-light tracking-tight text-gray-900 mb-4">
-              Our Premium Locations
+              Explore Properties by Location
             </h3>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Explore our curated selection of premium properties across Pune
+              Click on your preferred location to browse available flats, plots and commercial properties
             </p>
           </div>
           
@@ -60,13 +63,13 @@ export default function ComingSoonContent() {
         {/* CTA Buttons */}
         <div className="max-w-2xl mx-auto mb-20 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="#lead-form"
+            href="#locations"
             className="w-full sm:w-auto inline-flex items-center justify-center rounded-full bg-gray-900 hover:bg-gray-800 px-10 py-4 text-sm tracking-[0.2em] uppercase text-white font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900/60 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
           >
-            Get Notified
+            Explore Properties
           </Link>
           <a
-            href="https://wa.me/918830460132?text=Hi%20Nexovatu%2C%20I%20am%20interested%20in%20your%20premium%20real%20estate%20properties."
+            href="https://wa.me/918830460132?text=Hi%20Nexovastu%2C%20I%20am%20interested%20in%20your%20premium%20real%20estate%20properties."
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center rounded-full bg-green-500 hover:bg-green-600 px-10 py-4 text-sm tracking-[0.2em] uppercase text-white font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400/60 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
@@ -79,10 +82,10 @@ export default function ComingSoonContent() {
         <div id="lead-form" className="max-w-2xl mx-auto mb-20 scroll-mt-20">
           <div className="text-center mb-12">
             <h2 className="text-4xl sm:text-5xl font-light tracking-tight text-gray-900 mb-4">
-              Get Notified First
+              Get Expert Consultation
             </h2>
             <p className="text-lg text-gray-600 max-w-xl mx-auto">
-              Be the first to know when we launch. Fill in your details and we'll contact you!
+              Share your requirements and our team will connect with matching property options.
             </p>
           </div>
           <LeadForm />
@@ -142,3 +145,5 @@ export default function ComingSoonContent() {
     </section>
   )
 }
+
+

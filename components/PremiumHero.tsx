@@ -9,7 +9,7 @@ const HERO_IMAGE_URL = 'https://images.unsplash.com/photo-1528909514045-2fa4ac7a
 
 export default function PremiumHero() {
   return (
-    <section id="coming-soon" className="relative h-[92vh] min-h-[640px] w-full overflow-hidden bg-black">
+    <section id="home" className="relative h-[92vh] min-h-[640px] w-full overflow-hidden bg-black">
       {/* Background with fallback color */}
       <div className="absolute inset-0 z-0 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900" aria-hidden="true">
         <Image
@@ -36,14 +36,11 @@ export default function PremiumHero() {
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-5xl text-center">
-            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-light tracking-tight text-white leading-none">
-              Something Big
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-white leading-tight">
+              Pune&apos;s Trusted Partner for Premium Real Estate
             </h1>
-            <h2 className="mt-4 text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-tight text-white leading-none">
-              Is Coming
-            </h2>
-            <p className="mt-8 text-xl sm:text-2xl md:text-3xl text-white/90 font-light tracking-wide">
-              At Your Service
+            <p className="mt-8 text-lg sm:text-xl md:text-2xl text-white/90 font-light tracking-wide max-w-4xl mx-auto">
+              Find your dream property in Pune&apos;s most sought-after locations — Baner, Punawale, Ravet, Tathawade and Wakad
             </p>
           </div>
         </div>

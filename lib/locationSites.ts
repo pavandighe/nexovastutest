@@ -1,5 +1,5 @@
 /**
- * Location-wise website links for nexovatu
+ * Location-wise website links for Nexovastu
  * These are the location sites that mention "nexovastu"
  */
 
@@ -41,4 +41,12 @@ export const LOCATION_SITES: LocationSite[] = [
     location: 'Wakad',
     description: 'Properties in Wakad, Pune',
   },
+  {
+    name: 'Balewadi Properties',
+    url: 'https://balewadiproperty.com',
+    location: 'Balewadi',
+    description: 'Properties in Balewadi, Pune',
+  },
 ]
+
+

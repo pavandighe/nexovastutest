@@ -20,14 +20,14 @@ export default function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#coming-soon" className="flex items-center gap-3 group">
+          <a href="#home" className="flex items-center gap-3 group">
             <div className="relative w-12 h-12 bg-gradient-to-br from-primary-dark via-primary to-primary-light flex items-center justify-center rounded-xl shadow-xl transform group-hover:scale-110 transition-all duration-300 group-hover:shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-br from-primary-light/30 to-primary-dark/30 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <span className="relative z-10 text-white font-bold text-xl">NV</span>
             </div>
             <div>
               <div className="font-bold text-xl text-primary-dark group-hover:text-primary transition-colors bg-gradient-to-r from-primary-dark to-primary bg-clip-text text-transparent">
-                Nexovatu
+                Nexovastu
               </div>
               <p className="text-xs text-gray-600 font-medium">BY PSD</p>
             </div>
@@ -36,7 +36,7 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
             <a
-              href="#coming-soon"
+              href="#home"
               className="text-gray-700 hover:text-primary-dark font-medium transition-colors relative group"
             >
               Home
@@ -89,7 +89,7 @@ export default function Navbar() {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-dark group-hover:w-full transition-all duration-300"></span>
             </a>
             <a
-              href="https://wa.me/918830460132?text=Hi%20Nexovatu%2C%20I%20am%20interested%20in%20your%20services."
+              href="https://wa.me/918830460132?text=Hi%20Nexovastu%2C%20I%20am%20interested%20in%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 text-white font-semibold py-2.5 px-6 rounded-xl transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center gap-2 group"
@@ -136,7 +136,7 @@ export default function Navbar() {
         {mobileMenuOpen && (
           <div className="lg:hidden pb-4 border-t border-gray-200 mt-4 pt-4 animate-fade-in">
             <a
-              href="#coming-soon"
+              href="#home"
               className="block py-3 text-gray-700 hover:text-primary-dark font-medium transition-colors border-b border-gray-100"
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -174,7 +174,7 @@ export default function Navbar() {
               Contact
             </a>
             <a
-              href="https://wa.me/918830460132?text=Hi%20Nexovatu%2C%20I%20am%20interested%20in%20your%20services."
+              href="https://wa.me/918830460132?text=Hi%20Nexovastu%2C%20I%20am%20interested%20in%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 block bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg transition-all text-center flex items-center justify-center gap-2"
@@ -191,3 +191,5 @@ export default function Navbar() {
     </nav>
   )
 }
+
+
